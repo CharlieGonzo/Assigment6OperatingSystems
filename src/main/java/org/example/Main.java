@@ -37,7 +37,7 @@ public class Main {
             currentTime += curr.getBurstTime();
             waitTime += currentTime - curr.getBurstTime();
         }
-        System.out.println(waitTime);
+
         System.out.println("Average wait time = " + (waitTime / p.length));
     }
 
